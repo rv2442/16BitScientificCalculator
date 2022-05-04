@@ -39,7 +39,7 @@
   
   
 #### Natural Logarithm:
->Natural Log of 5 is performed and shows output 1.60
+>Natural Log of 5 is performed and shows output 1.60  
 >Output names are self explanatory  
   
 ![image](https://user-images.githubusercontent.com/69571769/166728826-5a36c904-2f8a-413e-ac17-62217a0b9f84.png)
