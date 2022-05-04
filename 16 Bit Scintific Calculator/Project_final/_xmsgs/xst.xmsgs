@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"E:\Xilinx_XIE\Project_final\Main.v" Line 30: Port <arg fmt="%s" index="1">cin</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"E:\Xilinx_XIE\Project_final\Main.v" Line 40: Port <arg fmt="%s" index="1">out1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"E:\Xilinx_XIE\Project_final\Main.v" Line 41: Port <arg fmt="%s" index="1">out1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"E:\Xilinx_XIE\Project_final\Main.v" Line 43: Port <arg fmt="%s" index="1">out1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"E:\Xilinx_XIE\Project_final\Main.v" Line 56: Port <arg fmt="%s" index="1">clk</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Xilinx_XIE\Project_final\Add.v" Line 24: Assignment to <arg fmt="%s" index="1">c</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\Xilinx_XIE\Project_final\Main.v" Line 31: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">mult</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Divide.v" Line 33: Result of <arg fmt="%d" index="1">20</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Divide.v" Line 36: Result of <arg fmt="%d" index="1">30</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Sin.v" Line 26: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1312" delta="old" >"E:\Xilinx_XIE\Project_final\Sin.v" Line 28: Operator <arg fmt="%s" index="1">**</arg> is only supported when both operands are constant
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Sin.v" Line 28: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1312" delta="old" >"E:\Xilinx_XIE\Project_final\Sin.v" Line 29: Operator <arg fmt="%s" index="1">**</arg> is only supported when both operands are constant
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Sin.v" Line 31: Result of <arg fmt="%d" index="1">48</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\Xilinx_XIE\Project_final\Sin.v" Line 23: Net &lt;<arg fmt="%s" index="1">z1[31]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Cos.v" Line 28: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1312" delta="old" >"E:\Xilinx_XIE\Project_final\Cos.v" Line 31: Operator <arg fmt="%s" index="1">**</arg> is only supported when both operands are constant
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1312" delta="old" >"E:\Xilinx_XIE\Project_final\Cos.v" Line 32: Operator <arg fmt="%s" index="1">**</arg> is only supported when both operands are constant
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Cos.v" Line 33: Result of <arg fmt="%d" index="1">64</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">32</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1312" delta="old" >"E:\Xilinx_XIE\Project_final\Cos.v" Line 34: Operator <arg fmt="%s" index="1">**</arg> is only supported when both operands are constant
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Cos.v" Line 35: Result of <arg fmt="%d" index="1">128</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">32</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Xilinx_XIE\Project_final\Cos.v" Line 35: Assignment to <arg fmt="%s" index="1">j</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Cos.v" Line 36: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Tan.v" Line 29: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Cot.v" Line 31: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Sec.v" Line 27: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Cosec.v" Line 27: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1312" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 51: Operator <arg fmt="%s" index="1">**</arg> is only supported when both operands are constant
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1312" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 52: Operator <arg fmt="%s" index="1">**</arg> is only supported when both operands are constant
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1312" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 53: Operator <arg fmt="%s" index="1">**</arg> is only supported when both operands are constant
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 63: Result of <arg fmt="%d" index="1">128</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">64</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 64: Result of <arg fmt="%d" index="1">128</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">64</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1312" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 67: Operator <arg fmt="%s" index="1">**</arg> is only supported when both operands are constant
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1312" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 68: Operator <arg fmt="%s" index="1">**</arg> is only supported when both operands are constant
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1312" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 69: Operator <arg fmt="%s" index="1">**</arg> is only supported when both operands are constant
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 79: Result of <arg fmt="%d" index="1">256</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">64</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 80: Result of <arg fmt="%d" index="1">256</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">64</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1312" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 83: Operator <arg fmt="%s" index="1">**</arg> is only supported when both operands are constant
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1312" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 84: Operator <arg fmt="%s" index="1">**</arg> is only supported when both operands are constant
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1312" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 85: Operator <arg fmt="%s" index="1">**</arg> is only supported when both operands are constant
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 95: Result of <arg fmt="%d" index="1">256</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">64</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 96: Result of <arg fmt="%d" index="1">256</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">64</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1312" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 99: Operator <arg fmt="%s" index="1">**</arg> is only supported when both operands are constant
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1312" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 100: Operator <arg fmt="%s" index="1">**</arg> is only supported when both operands are constant
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1312" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 101: Operator <arg fmt="%s" index="1">**</arg> is only supported when both operands are constant
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 111: Result of <arg fmt="%d" index="1">256</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">64</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 112: Result of <arg fmt="%d" index="1">256</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">64</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1312" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 115: Operator <arg fmt="%s" index="1">**</arg> is only supported when both operands are constant
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1312" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 116: Operator <arg fmt="%s" index="1">**</arg> is only supported when both operands are constant
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1312" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 117: Operator <arg fmt="%s" index="1">**</arg> is only supported when both operands are constant
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 125: Assignment to <arg fmt="%s" index="1">calc6_10</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 127: Result of <arg fmt="%d" index="1">512</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">64</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 128: Result of <arg fmt="%d" index="1">512</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">64</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 133: Result of <arg fmt="%d" index="1">64</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Xilinx_XIE\Project_final\Log.v" Line 134: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"E:\Xilinx_XIE\Project_final\Main.v" Line 30: Input port <arg fmt="%s" index="1">cin</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"E:\Xilinx_XIE\Project_final\Main.v" Line 56: Input port <arg fmt="%s" index="1">clk[15]</arg> is not connected on this instance
+</msg>
+
+<msg type="error" file="Xst" num="850" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx_XIE\Project_final\Sin.v</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Unsupported <arg fmt="%s" index="3">Switch or User Defined Primitive</arg>. 
+</msg>
+
+<msg type="error" file="Xst" num="850" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx_XIE\Project_final\Sin.v</arg>&quot; line <arg fmt="%d" index="2">29</arg>: Unsupported <arg fmt="%s" index="3">Switch or User Defined Primitive</arg>. 
+</msg>
+
+<msg type="error" file="Xst" num="850" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx_XIE\Project_final\Cos.v</arg>&quot; line <arg fmt="%d" index="2">31</arg>: Unsupported <arg fmt="%s" index="3">Switch or User Defined Primitive</arg>. 
+</msg>
+
+<msg type="error" file="Xst" num="850" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx_XIE\Project_final\Cos.v</arg>&quot; line <arg fmt="%d" index="2">32</arg>: Unsupported <arg fmt="%s" index="3">Switch or User Defined Primitive</arg>. 
+</msg>
+
+<msg type="error" file="Xst" num="850" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx_XIE\Project_final\Log.v</arg>&quot; line <arg fmt="%d" index="2">51</arg>: Unsupported <arg fmt="%s" index="3">Switch or User Defined Primitive</arg>. 
+</msg>
+
+<msg type="error" file="Xst" num="850" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx_XIE\Project_final\Log.v</arg>&quot; line <arg fmt="%d" index="2">52</arg>: Unsupported <arg fmt="%s" index="3">Switch or User Defined Primitive</arg>. 
+</msg>
+
+<msg type="error" file="Xst" num="850" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx_XIE\Project_final\Log.v</arg>&quot; line <arg fmt="%d" index="2">67</arg>: Unsupported <arg fmt="%s" index="3">Switch or User Defined Primitive</arg>. 
+</msg>
+
+<msg type="error" file="Xst" num="850" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx_XIE\Project_final\Log.v</arg>&quot; line <arg fmt="%d" index="2">68</arg>: Unsupported <arg fmt="%s" index="3">Switch or User Defined Primitive</arg>. 
+</msg>
+
+</messages>

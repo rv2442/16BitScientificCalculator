@@ -1,0 +1,23 @@
+Running: E:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/Xilinx_XIE/fourbit/Main_demo_test_isim_beh.exe -prj E:/Xilinx_XIE/fourbit/Main_demo_test_beh.prj work.Main_demo_test work.glbl 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/Xilinx_XIE/fourbit/Main_Demo.v" into library work
+Analyzing Verilog file "E:/Xilinx_XIE/fourbit/Main_demo_test.v" into library work
+Analyzing Verilog file "E:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module ADD_DEMO
+Compiling module SUB_DEMO
+Compiling module MULT_DEMO
+Compiling module DIV_DEMO
+Compiling module Main_Demo
+Compiling module Main_demo_test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 Verilog Units
+Built simulation executable E:/Xilinx_XIE/fourbit/Main_demo_test_isim_beh.exe
+Fuse Memory Usage: 28032 KB
+Fuse CPU Usage: 781 ms

@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Mon May 02 15:02:59 2022
+# Process ID: 9636
+# Log file: E:/Xilinx_XIE/fourbit/planAhead_run_1/planAhead.log
+# Journal file: E:/Xilinx_XIE/fourbit/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from E:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [E:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [E:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source E:/Xilinx_XIE/fourbit/pa.fromNetlist.tcl
+# create_project -name fourbit -dir "E:/Xilinx_XIE/fourbit/planAhead_run_1" -part xc6slx9tqg144-3
+create_project: Time (s): elapsed = 00:00:11 . Memory (MB): peak = 419.547 ; gain = 68.914
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "E:/Xilinx_XIE/fourbit/Main_Demo.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {E:/Xilinx_XIE/fourbit} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "main.ucf" [current_fileset -constrset]
+Adding file 'E:/Xilinx_XIE/fourbit/main.ucf' to fileset 'constrs_1'
+# add_files [list {main.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx9tqg144-3
+Release 14.5 - ngc2edif P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design Main_Demo.ngc ...
+WARNING:NetListWriters:298 - No output is written to Main_Demo.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file Main_Demo.edif ...
+ngc2edif: Total memory usage is 4314380 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/fourbit.data/cache/Main_Demo_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/fourbit.data/cache/Main_Demo_ngc_zx.edif]
+Loading clock regions from E:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+Loading clock buffers from E:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+Loading package pin functions from E:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from E:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/tqg144/Package.xml
+Loading io standards from E:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from E:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : E:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [E:/Xilinx_XIE/fourbit/main.ucf]
+Finished Parsing UCF File [E:/Xilinx_XIE/fourbit/main.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: c6905051
+link_design: Time (s): elapsed = 00:00:30 . Memory (MB): peak = 615.594 ; gain = 196.047

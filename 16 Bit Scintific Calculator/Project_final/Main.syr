@@ -1,0 +1,256 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.32 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.32 secs
+ 
+--> Reading design: Main.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Main.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Main"
+Output Format                      : NGC
+Target Device                      : xc6slx9-3-tqg144
+
+---- Source Options
+Top Module Name                    : Main
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\Xilinx_XIE\Project_final\Sin.v" into library work
+Parsing module <Sin>.
+Analyzing Verilog file "E:\Xilinx_XIE\Project_final\Cos.v" into library work
+Parsing module <Cos>.
+Analyzing Verilog file "E:\Xilinx_XIE\Project_final\Tan.v" into library work
+Parsing module <Tan>.
+Analyzing Verilog file "E:\Xilinx_XIE\Project_final\Subtract.v" into library work
+Parsing module <Subtract>.
+Analyzing Verilog file "E:\Xilinx_XIE\Project_final\Sec.v" into library work
+Parsing module <Sec>.
+Analyzing Verilog file "E:\Xilinx_XIE\Project_final\Or.v" into library work
+Parsing module <Or>.
+Analyzing Verilog file "E:\Xilinx_XIE\Project_final\Not.v" into library work
+Parsing module <Not>.
+Analyzing Verilog file "E:\Xilinx_XIE\Project_final\Nor.v" into library work
+Parsing module <Nor>.
+Analyzing Verilog file "E:\Xilinx_XIE\Project_final\Nand.v" into library work
+Parsing module <Nand>.
+Analyzing Verilog file "E:\Xilinx_XIE\Project_final\Multiply.v" into library work
+Parsing module <Multiply>.
+Analyzing Verilog file "E:\Xilinx_XIE\Project_final\Modulus.v" into library work
+Parsing module <Modulus>.
+Analyzing Verilog file "E:\Xilinx_XIE\Project_final\Log.v" into library work
+Parsing module <Log>.
+Analyzing Verilog file "E:\Xilinx_XIE\Project_final\ExOr.v" into library work
+Parsing module <ExOr>.
+Analyzing Verilog file "E:\Xilinx_XIE\Project_final\ExNor.v" into library work
+Parsing module <ExNor>.
+Analyzing Verilog file "E:\Xilinx_XIE\Project_final\Divide.v" into library work
+Parsing module <Divide>.
+Analyzing Verilog file "E:\Xilinx_XIE\Project_final\Cot.v" into library work
+Parsing module <Cot>.
+Analyzing Verilog file "E:\Xilinx_XIE\Project_final\Cosec.v" into library work
+Parsing module <Cosec>.
+Analyzing Verilog file "E:\Xilinx_XIE\Project_final\And.v" into library work
+Parsing module <And>.
+Analyzing Verilog file "E:\Xilinx_XIE\Project_final\Add.v" into library work
+Parsing module <Add>.
+Analyzing Verilog file "E:\Xilinx_XIE\Project_final\Main.v" into library work
+Parsing module <Main>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "E:\Xilinx_XIE\Project_final\Main.v" Line 30: Port cin is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\Xilinx_XIE\Project_final\Main.v" Line 40: Port out1 is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\Xilinx_XIE\Project_final\Main.v" Line 41: Port out1 is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\Xilinx_XIE\Project_final\Main.v" Line 43: Port out1 is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\Xilinx_XIE\Project_final\Main.v" Line 56: Port clk is not connected to this instance
+
+Elaborating module <Main>.
+
+Elaborating module <Add>.
+WARNING:HDLCompiler:1127 - "E:\Xilinx_XIE\Project_final\Add.v" Line 24: Assignment to c ignored, since the identifier is never used
+
+Elaborating module <Subtract>.
+
+Elaborating module <Multiply>.
+WARNING:HDLCompiler:189 - "E:\Xilinx_XIE\Project_final\Main.v" Line 31: Size mismatch in connection of port <mult>. Formal port size is 32-bit while actual signal size is 16-bit.
+
+Elaborating module <Divide>.
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Divide.v" Line 33: Result of 20-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Divide.v" Line 36: Result of 30-bit expression is truncated to fit in 16-bit target.
+
+Elaborating module <Modulus>.
+
+Elaborating module <And>.
+
+Elaborating module <Or>.
+
+Elaborating module <Not>.
+
+Elaborating module <Nand>.
+
+Elaborating module <Nor>.
+
+Elaborating module <ExOr>.
+
+Elaborating module <ExNor>.
+
+Elaborating module <Sin>.
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Sin.v" Line 26: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:1312 - "E:\Xilinx_XIE\Project_final\Sin.v" Line 28: Operator ** is only supported when both operands are constant
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Sin.v" Line 28: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:1312 - "E:\Xilinx_XIE\Project_final\Sin.v" Line 29: Operator ** is only supported when both operands are constant
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Sin.v" Line 31: Result of 48-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:634 - "E:\Xilinx_XIE\Project_final\Sin.v" Line 23: Net <z1[31]> does not have a driver.
+
+Elaborating module <Cos>.
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Cos.v" Line 28: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:1312 - "E:\Xilinx_XIE\Project_final\Cos.v" Line 31: Operator ** is only supported when both operands are constant
+WARNING:HDLCompiler:1312 - "E:\Xilinx_XIE\Project_final\Cos.v" Line 32: Operator ** is only supported when both operands are constant
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Cos.v" Line 33: Result of 64-bit expression is truncated to fit in 32-bit target.
+WARNING:HDLCompiler:1312 - "E:\Xilinx_XIE\Project_final\Cos.v" Line 34: Operator ** is only supported when both operands are constant
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Cos.v" Line 35: Result of 128-bit expression is truncated to fit in 32-bit target.
+WARNING:HDLCompiler:1127 - "E:\Xilinx_XIE\Project_final\Cos.v" Line 35: Assignment to j ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Cos.v" Line 36: Result of 32-bit expression is truncated to fit in 16-bit target.
+
+Elaborating module <Tan>.
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Tan.v" Line 29: Result of 32-bit expression is truncated to fit in 16-bit target.
+
+Elaborating module <Cot>.
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Cot.v" Line 31: Result of 32-bit expression is truncated to fit in 16-bit target.
+
+Elaborating module <Sec>.
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Sec.v" Line 27: Result of 32-bit expression is truncated to fit in 16-bit target.
+
+Elaborating module <Cosec>.
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Cosec.v" Line 27: Result of 32-bit expression is truncated to fit in 16-bit target.
+
+Elaborating module <Log>.
+WARNING:HDLCompiler:1312 - "E:\Xilinx_XIE\Project_final\Log.v" Line 51: Operator ** is only supported when both operands are constant
+WARNING:HDLCompiler:1312 - "E:\Xilinx_XIE\Project_final\Log.v" Line 52: Operator ** is only supported when both operands are constant
+WARNING:HDLCompiler:1312 - "E:\Xilinx_XIE\Project_final\Log.v" Line 53: Operator ** is only supported when both operands are constant
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Log.v" Line 63: Result of 128-bit expression is truncated to fit in 64-bit target.
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Log.v" Line 64: Result of 128-bit expression is truncated to fit in 64-bit target.
+WARNING:HDLCompiler:1312 - "E:\Xilinx_XIE\Project_final\Log.v" Line 67: Operator ** is only supported when both operands are constant
+WARNING:HDLCompiler:1312 - "E:\Xilinx_XIE\Project_final\Log.v" Line 68: Operator ** is only supported when both operands are constant
+WARNING:HDLCompiler:1312 - "E:\Xilinx_XIE\Project_final\Log.v" Line 69: Operator ** is only supported when both operands are constant
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Log.v" Line 79: Result of 256-bit expression is truncated to fit in 64-bit target.
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Log.v" Line 80: Result of 256-bit expression is truncated to fit in 64-bit target.
+WARNING:HDLCompiler:1312 - "E:\Xilinx_XIE\Project_final\Log.v" Line 83: Operator ** is only supported when both operands are constant
+WARNING:HDLCompiler:1312 - "E:\Xilinx_XIE\Project_final\Log.v" Line 84: Operator ** is only supported when both operands are constant
+WARNING:HDLCompiler:1312 - "E:\Xilinx_XIE\Project_final\Log.v" Line 85: Operator ** is only supported when both operands are constant
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Log.v" Line 95: Result of 256-bit expression is truncated to fit in 64-bit target.
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Log.v" Line 96: Result of 256-bit expression is truncated to fit in 64-bit target.
+WARNING:HDLCompiler:1312 - "E:\Xilinx_XIE\Project_final\Log.v" Line 99: Operator ** is only supported when both operands are constant
+WARNING:HDLCompiler:1312 - "E:\Xilinx_XIE\Project_final\Log.v" Line 100: Operator ** is only supported when both operands are constant
+WARNING:HDLCompiler:1312 - "E:\Xilinx_XIE\Project_final\Log.v" Line 101: Operator ** is only supported when both operands are constant
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Log.v" Line 111: Result of 256-bit expression is truncated to fit in 64-bit target.
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Log.v" Line 112: Result of 256-bit expression is truncated to fit in 64-bit target.
+WARNING:HDLCompiler:1312 - "E:\Xilinx_XIE\Project_final\Log.v" Line 115: Operator ** is only supported when both operands are constant
+WARNING:HDLCompiler:1312 - "E:\Xilinx_XIE\Project_final\Log.v" Line 116: Operator ** is only supported when both operands are constant
+WARNING:HDLCompiler:1312 - "E:\Xilinx_XIE\Project_final\Log.v" Line 117: Operator ** is only supported when both operands are constant
+WARNING:HDLCompiler:1127 - "E:\Xilinx_XIE\Project_final\Log.v" Line 125: Assignment to calc6_10 ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Log.v" Line 127: Result of 512-bit expression is truncated to fit in 64-bit target.
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Log.v" Line 128: Result of 512-bit expression is truncated to fit in 64-bit target.
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Log.v" Line 133: Result of 64-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "E:\Xilinx_XIE\Project_final\Log.v" Line 134: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:552 - "E:\Xilinx_XIE\Project_final\Main.v" Line 30: Input port cin is not connected on this instance
+WARNING:HDLCompiler:552 - "E:\Xilinx_XIE\Project_final\Main.v" Line 56: Input port clk[15] is not connected on this instance
+ERROR:Xst:850 - "E:\Xilinx_XIE\Project_final\Sin.v" line 28: Unsupported Switch or User Defined Primitive. 
+ERROR:Xst:850 - "E:\Xilinx_XIE\Project_final\Sin.v" line 29: Unsupported Switch or User Defined Primitive. 
+ERROR:Xst:850 - "E:\Xilinx_XIE\Project_final\Cos.v" line 31: Unsupported Switch or User Defined Primitive. 
+ERROR:Xst:850 - "E:\Xilinx_XIE\Project_final\Cos.v" line 32: Unsupported Switch or User Defined Primitive. 
+ERROR:Xst:850 - "E:\Xilinx_XIE\Project_final\Log.v" line 51: Unsupported Switch or User Defined Primitive. 
+ERROR:Xst:850 - "E:\Xilinx_XIE\Project_final\Log.v" line 52: Unsupported Switch or User Defined Primitive. 
+ERROR:Xst:850 - "E:\Xilinx_XIE\Project_final\Log.v" line 67: Unsupported Switch or User Defined Primitive. 
+ERROR:Xst:850 - "E:\Xilinx_XIE\Project_final\Log.v" line 68: Unsupported Switch or User Defined Primitive. 

@@ -1,0 +1,13 @@
+Release 14.5 Map P.58f (nt64)
+Xilinx Mapping Report File for Design 'Project'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off
+-pr off -lc off -power off -o Project_map.ncd Project.ngd Project.pcf 
+Target Device  : xc6slx9
+Target Package : tqg144
+Target Speed   : -3
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Tue Mar 22 22:20:35 2022

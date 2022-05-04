@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Mon May 02 15:03:23 2022
+# Process ID: 15352
+# Log file: E:/Xilinx_XIE/fourbit/planAhead_run_2/planAhead.log
+# Journal file: E:/Xilinx_XIE/fourbit/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from E:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [E:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [E:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source E:/Xilinx_XIE/fourbit/pa.fromHdl.tcl
+# create_project -name fourbit -dir "E:/Xilinx_XIE/fourbit/planAhead_run_2" -part xc6slx9tqg144-3
+create_project: Time (s): elapsed = 00:00:11 . Memory (MB): peak = 432.125 ; gain = 68.227
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "main.ucf" [current_fileset -constrset]
+Adding file 'E:/Xilinx_XIE/fourbit/main.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {Main_Demo.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top Main_Demo $srcset
+# add_files [list {main.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx9tqg144-3
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Using Verific elaboration
+Parsing VHDL file "E:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "E:/Xilinx_XIE/fourbit/Main_Demo.v" into library work
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: e6f7661e
+open_rtl_design: Time (s): elapsed = 00:00:07 . Memory (MB): peak = 450.070 ; gain = 17.945
+INFO: [Common 17-344] 'open_rtl_design' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+update_compile_order -fileset sim_1
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See E:/Xilinx_XIE/fourbit\planAhead_pid15352.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon May 02 15:04:13 2022...
+INFO: [Common 17-83] Releasing license: PlanAhead

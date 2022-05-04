@@ -1,0 +1,34 @@
+NET f_out1[0]  LOC = P9 ; 	
+NET f_out1[1]  LOC = P8 ;
+NET f_out1[2]  LOC = P7 ;
+NET f_out1[3]  LOC = P10 ;
+NET f_out1[4]  LOC = P11  ;
+NET f_out1[5]  LOC = P12  ;
+NET f_out1[6]  LOC = P14  ;
+NET f_out1[7]  LOC = P15  ;
+	
+NET f_inp1[0]  LOC = P27; 
+NET f_inp1[1]  LOC = P26; 
+NET f_inp1[2]  LOC = P24; 
+NET f_inp1[3]  LOC = P16;
+ 
+NET f_inp2[0]  LOC = P17; 
+NET f_inp2[1]  LOC = P21; 
+NET f_inp2[2]  LOC = P22; 
+NET f_inp2[3]  LOC = P23;
+
+
+NET f_out2_1[3]  LOC = P81  ;
+NET f_out2_1[2]  LOC = P79  ;
+NET f_out2_1[1]  LOC = P75  ;
+NET f_out2_1[0]  LOC = P67  ;
+
+NET f_out2_2[0]  LOC = P41  ;
+NET f_out2_2[1]  LOC = P44  ;
+NET f_out2_2[2]  LOC = P46  ;
+NET f_out2_2[3]  LOC = P48  ;
+
+NET sel[0]  LOC = P61  ; //61
+NET sel[1]  LOC = P58  ; //58
+NET sel[2]  LOC = P56 ; //56
+NET sel[3]  LOC = P51  ; //51
