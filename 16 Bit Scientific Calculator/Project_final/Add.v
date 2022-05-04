@@ -19,13 +19,5 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module Add(input  [15:0] a, b, output [15:0] sum);
-  wire cout;
-  wire [15:0] c;	// carry bits
-  assign c[0] = 0;	// carry input
-  	// carry output
-
-  // assignment of 16-bit vectors
   assign sum[15:0] = a + b;
-  //assign c[16:1]   = (a[15:0] & b[15:0]) | (a[15:0] ^ b[15:0]) & c[15:0];
-  //assign f[15:0]= a[15:0]**b[15:0];
 endmodule
