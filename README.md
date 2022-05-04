@@ -22,7 +22,7 @@
   
 
 #### Cosine:
->Cosine was Calculated using Taylor Series.  
+>Cosine was Calculated for angle 40(in degrees)    
 >'a' is the 16 bit output in decimal (upto 4 digits)   
   
 ![image](https://user-images.githubusercontent.com/69571769/166725008-f7654abc-0186-4f9e-8499-3ed66d6fc199.png)
