@@ -24,7 +24,8 @@
 #### Cosine:
 >Cosine was Calculated for angle 40(in degrees)    
 >'a' is the 16 bit output in decimal (upto 4 digits)   
-  
+>'select' 01101 is select mode for Cosine  
+   
 ![image](https://user-images.githubusercontent.com/69571769/166725008-f7654abc-0186-4f9e-8499-3ed66d6fc199.png)
   
   
@@ -32,11 +33,17 @@
 >Division of 10000 by 3000 is performed which shows output 3.3333  
 >'a' is the integer output of divison's Quotient  
 >'b' is the decimal output of the division's Quotient    
+>'select' 00011 is select mode for division  
   
 ![image](https://user-images.githubusercontent.com/69571769/166725507-47ea4564-41a0-470d-acf9-8e8eff0e4635.png)
   
   
+#### Natural Logarithm:
+>Natural Log of 5 is performed and shows output 1.60
+>Output names are self explanatory  
   
+![image](https://user-images.githubusercontent.com/69571769/166728826-5a36c904-2f8a-413e-ac17-62217a0b9f84.png)
+
   
   
   
