@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Mon May 02 15:02:59 2022
+# Process ID: 9636
+# Log file: E:/Xilinx_XIE/fourbit/planAhead_run_1/planAhead.log
+# Journal file: E:/Xilinx_XIE/fourbit/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/Xilinx_XIE/fourbit/pa.fromNetlist.tcl

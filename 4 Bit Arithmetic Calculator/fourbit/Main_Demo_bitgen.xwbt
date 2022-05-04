@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Xilinx_XIE\fourbit\Main_Demo.ncd
+OUTFILE=E:\Xilinx_XIE\fourbit\Main_Demo.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=E:\Xilinx_XIE\fourbit
+LICENSE=WebPack
+USER_INFO=__0_0_0

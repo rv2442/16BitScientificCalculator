@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Project_final" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Arithmetic E:|Xilinx_XIE|Project_final|Arithmetic.v</ClosedNode>
+         <ClosedNode>/Logical E:|Xilinx_XIE|Project_final|Logical.v</ClosedNode>
+         <ClosedNode>/Main E:|Xilinx_XIE|Project_final|Main.v/Cosec - Cosec</ClosedNode>
+         <ClosedNode>/Main E:|Xilinx_XIE|Project_final|Main.v/Cot - Cot</ClosedNode>
+         <ClosedNode>/Main E:|Xilinx_XIE|Project_final|Main.v/Sec - Sec</ClosedNode>
+         <ClosedNode>/Main E:|Xilinx_XIE|Project_final|Main.v/Tan - Tan</ClosedNode>
+         <ClosedNode>/Trigonimetry E:|Xilinx_XIE|Project_final|Trigonimetry.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Main (E:/Xilinx_XIE/Project_final/Main.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000104000000020000000000000000000000000200000064ffffffff000000810000000300000002000001040000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Main (E:/Xilinx_XIE/Project_final/Main.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000014e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000014e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001b10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>And.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate IBIS Model</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate Post-Place &amp; Route Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f2000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Arith_test E:|Xilinx_XIE|Project_final|Arith_test.v/uut - Arithmetic</ClosedNode>
+         <ClosedNode>/Arithmetic E:|Xilinx_XIE|Project_final|Arithmetic.v</ClosedNode>
+         <ClosedNode>/Arithmetic E:|Xilinx_XIE|Project_final|Arithmetic.v/Mod_test - Mod_test</ClosedNode>
+         <ClosedNode>/Arithmetic E:|Xilinx_XIE|Project_final|Arithmetic.v/add_test - add_test</ClosedNode>
+         <ClosedNode>/Arithmetic E:|Xilinx_XIE|Project_final|Arithmetic.v/div_test - div_test</ClosedNode>
+         <ClosedNode>/Arithmetic E:|Xilinx_XIE|Project_final|Arithmetic.v/mult_test - mult_test</ClosedNode>
+         <ClosedNode>/Arithmetic E:|Xilinx_XIE|Project_final|Arithmetic.v/sub_test - sub_test</ClosedNode>
+         <ClosedNode>/CORDIC_TESTBENCH E:|Xilinx_XIE|Project_final|CordicTest.v</ClosedNode>
+         <ClosedNode>/Cos E:|Xilinx_XIE|Project_final|Cos_Sec.v</ClosedNode>
+         <ClosedNode>/Logical E:|Xilinx_XIE|Project_final|Logical.v</ClosedNode>
+         <ClosedNode>/Logical E:|Xilinx_XIE|Project_final|Logical.v/nand_test - nand_test</ClosedNode>
+         <ClosedNode>/Logical E:|Xilinx_XIE|Project_final|Logical.v/nor_test - nor_test</ClosedNode>
+         <ClosedNode>/Logical E:|Xilinx_XIE|Project_final|Logical.v/not_test - not_test</ClosedNode>
+         <ClosedNode>/Main_Test E:|Xilinx_XIE|Project_final|Main_Test.v/uut - Main/Cosec - Cosec</ClosedNode>
+         <ClosedNode>/Main_Test E:|Xilinx_XIE|Project_final|Main_Test.v/uut - Main/Cot - Cot</ClosedNode>
+         <ClosedNode>/Main_Test E:|Xilinx_XIE|Project_final|Main_Test.v/uut - Main/Sec - Sec</ClosedNode>
+         <ClosedNode>/Main_Test E:|Xilinx_XIE|Project_final|Main_Test.v/uut - Main/Tan - Tan</ClosedNode>
+         <ClosedNode>/Mod_test E:|Xilinx_XIE|Project_final|Mod_test.v</ClosedNode>
+         <ClosedNode>/Tan E:|Xilinx_XIE|Project_final|Tan.v</ClosedNode>
+         <ClosedNode>/Trigonimetry E:|Xilinx_XIE|Project_final|Trigonimetry.v/Cos_Sec - Cos_Sec</ClosedNode>
+         <ClosedNode>/Trigonimetry E:|Xilinx_XIE|Project_final|Trigonimetry.v/Cosec - Cosec</ClosedNode>
+         <ClosedNode>/Trigonimetry E:|Xilinx_XIE|Project_final|Trigonimetry.v/Cot - Cot</ClosedNode>
+         <ClosedNode>/Trigonimetry E:|Xilinx_XIE|Project_final|Trigonimetry.v/Sec - Sec</ClosedNode>
+         <ClosedNode>/Trigonimetry E:|Xilinx_XIE|Project_final|Trigonimetry.v/Tan - Tan</ClosedNode>
+         <ClosedNode>/Trigonimetry E:|Xilinx_XIE|Project_final|Trigonimetry.v/Tan_Cot - Tan_Cot</ClosedNode>
+         <ClosedNode>/Trigonimetry E:|Xilinx_XIE|Project_final|Trigonimetry.v/Tan_Cot - Tan_Cot/Cos_Sec - Cos_Sec</ClosedNode>
+         <ClosedNode>/and_test E:|Xilinx_XIE|Project_final|and_test.v</ClosedNode>
+         <ClosedNode>/cos_test E:|Xilinx_XIE|Project_final|cos_test.v/uut - Cos_Sec</ClosedNode>
+         <ClosedNode>/div_test E:|Xilinx_XIE|Project_final|div_test.v</ClosedNode>
+         <ClosedNode>/exnor_test E:|Xilinx_XIE|Project_final|exnor_test.v</ClosedNode>
+         <ClosedNode>/exor_test E:|Xilinx_XIE|Project_final|exor_test.v</ClosedNode>
+         <ClosedNode>/mult_test E:|Xilinx_XIE|Project_final|mult_test.v</ClosedNode>
+         <ClosedNode>/nand_test E:|Xilinx_XIE|Project_final|nand_test.v</ClosedNode>
+         <ClosedNode>/nor_test E:|Xilinx_XIE|Project_final|nor_test.v</ClosedNode>
+         <ClosedNode>/not_test E:|Xilinx_XIE|Project_final|not_test.v</ClosedNode>
+         <ClosedNode>/or_test E:|Xilinx_XIE|Project_final|or_test.v</ClosedNode>
+         <ClosedNode>/sin_cos_tan_test E:|Xilinx_XIE|Project_final|sin_cos_tan_test.v</ClosedNode>
+         <ClosedNode>/sub_test E:|Xilinx_XIE|Project_final|sub_test.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>E:/Xilinx_XIE/Project_final/Main_ucf</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000118000000020000000000000000000000000200000064ffffffff000000810000000300000002000001180000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>E:/Xilinx_XIE/Project_final/Main_ucf</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000103000000010000000100000000000000000000000064ffffffff000000810000000000000001000001030000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000103000000010000000100000000000000000000000064ffffffff000000810000000000000001000001030000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000000dc000000a301000000050100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>ISim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

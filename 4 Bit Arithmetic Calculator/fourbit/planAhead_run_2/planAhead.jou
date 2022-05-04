@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Mon May 02 15:03:23 2022
+# Process ID: 15352
+# Log file: E:/Xilinx_XIE/fourbit/planAhead_run_2/planAhead.log
+# Journal file: E:/Xilinx_XIE/fourbit/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/Xilinx_XIE/fourbit/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

@@ -1,0 +1,35 @@
+//! **************************************************************************
+// Written by: Map P.58f on Wed May 04 14:36:04 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "f_inp2<2>" LOCATE = SITE "P22" LEVEL 1;
+COMP "f_inp2<3>" LOCATE = SITE "P23" LEVEL 1;
+COMP "f_out1<0>" LOCATE = SITE "P9" LEVEL 1;
+COMP "f_out1<1>" LOCATE = SITE "P8" LEVEL 1;
+COMP "f_out2_1<0>" LOCATE = SITE "P67" LEVEL 1;
+COMP "f_out1<2>" LOCATE = SITE "P7" LEVEL 1;
+COMP "f_out2_1<1>" LOCATE = SITE "P75" LEVEL 1;
+COMP "f_out1<3>" LOCATE = SITE "P10" LEVEL 1;
+COMP "f_out2_1<2>" LOCATE = SITE "P79" LEVEL 1;
+COMP "f_out1<4>" LOCATE = SITE "P11" LEVEL 1;
+COMP "f_out2_1<3>" LOCATE = SITE "P81" LEVEL 1;
+COMP "f_out1<5>" LOCATE = SITE "P12" LEVEL 1;
+COMP "f_out2_2<0>" LOCATE = SITE "P41" LEVEL 1;
+COMP "f_out1<6>" LOCATE = SITE "P14" LEVEL 1;
+COMP "f_out2_2<1>" LOCATE = SITE "P44" LEVEL 1;
+COMP "f_out1<7>" LOCATE = SITE "P15" LEVEL 1;
+COMP "f_out2_2<2>" LOCATE = SITE "P46" LEVEL 1;
+COMP "f_out2_2<3>" LOCATE = SITE "P48" LEVEL 1;
+COMP "f_inp1<0>" LOCATE = SITE "P27" LEVEL 1;
+COMP "f_inp1<1>" LOCATE = SITE "P26" LEVEL 1;
+COMP "f_inp1<2>" LOCATE = SITE "P24" LEVEL 1;
+COMP "sel<0>" LOCATE = SITE "P61" LEVEL 1;
+COMP "f_inp1<3>" LOCATE = SITE "P16" LEVEL 1;
+COMP "sel<1>" LOCATE = SITE "P58" LEVEL 1;
+COMP "f_inp2<0>" LOCATE = SITE "P17" LEVEL 1;
+COMP "sel<2>" LOCATE = SITE "P56" LEVEL 1;
+COMP "f_inp2<1>" LOCATE = SITE "P21" LEVEL 1;
+COMP "sel<3>" LOCATE = SITE "P51" LEVEL 1;
+SCHEMATIC END;
+
