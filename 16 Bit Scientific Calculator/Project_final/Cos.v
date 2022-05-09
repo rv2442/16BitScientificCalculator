@@ -33,7 +33,7 @@ module Cos(input[15:0] inp1, output[15:0] cos);
   assign i = y/100000;
   assign calc = x**6/720/10000000;
   assign j = calc/100000;
-  assign cos = 10000 - z +i;
+  assign cos = 10000 - z + i - j;
   // 1 - x^2/2! + x^4/4! - x^6/6! + ....
 
 
