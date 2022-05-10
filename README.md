@@ -62,7 +62,7 @@
    
   
 #### Division
->Floating point division of 2 4 bit numbers upto 2 decimals, 3(0011) and 5(0101) gives output 1.66  
+>Floating point division of 2 4 bit numbers upto 2 decimals, 5(0101) and 3(0011) gives output 1.66 (5/3)   
 > LSB is 1(0000 0001)  
 > 4 Leds on Breadboard towards left are 6(0110)  
 > 4 Leds on Breadboard towards right are 6(0110)  
