@@ -1,5 +1,5 @@
 # 16BitScientificCalculator
-### 16 Bit Scientific Calculator Using Xilinx ISE 14.7(Verilog) on Spartan 6 Board
+### 16 Bit Scientific Calculator Using Xilinx ISE 14.7(Verilog) on Spartan 6 FPGA Dev Board
 
 ## Intro
 1. A calculator's function is to do accurate calculations in a timely manner. It is obvious that, to the greatest extent feasible, a calculator should free the user from the need to do mental calculations and rely on paper.  
