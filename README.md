@@ -73,5 +73,4 @@
      
 _______________________________________________________________________________________________________________________________________________________________________
 ### Demo
-[![Image](![image](https://user-images.githubusercontent.com/69571769/191523698-07e51732-4c54-440a-acb7-02a3d0ff271f.png)
-)](https://drive.google.com/drive/folders/1H0rM2BKYQ41OzuZrpYqHJkrT7U8Uv7cr)
+[![image](https://user-images.githubusercontent.com/69571769/191523698-07e51732-4c54-440a-acb7-02a3d0ff271f.png)](https://drive.google.com/drive/folders/1H0rM2BKYQ41OzuZrpYqHJkrT7U8Uv7cr)
