@@ -50,6 +50,9 @@
   
   
 ### 4 Bit Arithmetic Calculator  
+#### The Board 
+![image](https://user-images.githubusercontent.com/69571769/197362522-adedeabe-3afd-4c75-a9d3-a8923d8fa998.png)
+
   
     
 
